@@ -1,0 +1,690 @@
+* {
+   margin: 0;
+   padding: 0; 
+   text-decoration: none;
+   font-family: 'Noto Sans', sans-serif;
+   box-sizing: border-box; 
+}
+ 
+header {
+   background-color: transparent;
+   height: 8vh;
+}
+ 
+header::after {
+   content: '';
+   display: table;
+   clear: both;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+ 
+.pagina1 {
+   background-image: url(Attatchments/Achtergrond/man-3296652.jpg );
+   height: 100vh; 
+   width: auto;
+   background-size: cover;
+}
+
+.pagina2 {
+   background-color: #c4c4c4;
+}
+
+.pagina3 {
+   background-color: #999999;
+}
+
+.pagina4 {
+   background-image: url(Attatchments/Achtergrond/man-3296652.jpg );
+   height: 100vh; 
+   width: auto;
+   background-size: 300%;
+}
+
+.container {
+   width: 95%;
+}
+ 
+.logo {
+   position: absolute;
+   padding-top: 7.4px;
+   float: left;
+   height: 45px;
+   width: auto;
+   margin-left: 7.4px;
+}
+ 
+nav {
+   float: right;
+   height: 8vh;
+}
+
+.nav-links {
+   border-radius: 20px 0px 0px 20px;
+}
+
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+ 
+nav li {
+   display: inline-block;
+   margin-left: 50px;
+   padding-top: 20px;
+   position: relative;
+}
+ 
+nav a {
+   color: #000000;
+   text-decoration: none;
+   font-size: 13px;
+   font-weight: 600;
+   margin-left: 5px;
+}
+ 
+nav a:hover {
+   color: #262626;
+}
+ 
+nav a::before {
+   content: '';
+   display: block;
+   height: 4px;
+   width: 100%;
+   background-color: #262626;
+   position: absolute;
+   top: 0;
+   width: 0%;
+   transition: 0.3s;
+}
+ 
+nav a:hover::before {
+   width: 100%;
+}
+ 
+.burger {
+   display: none;
+}
+ 
+.burger div {
+   display: flex;
+   width: 25px;
+   height: 2px;
+   background-color :#262626;
+   margin: 5px;
+   transition: all 0.4s ease;
+}
+ 
+.hoofdtext {
+   font-size: 50px;
+   position: static;
+   margin-top: 30vh;
+   margin-left: 100px;
+}
+
+.hoofdtext span {
+   color: #5a5a5a;
+}
+ 
+.tab {
+   overflow: hidden;
+   background-color: transparent;
+   margin-top: 7vh;
+}
+ 
+.tab button {
+   background-color: transparent;
+   color: black;
+   font-weight: 600;
+   margin-left: 10px;
+   margin-top: 3vh;
+   padding: 14px 16px;
+   display: block;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+ 
+.tab button:hover {
+   background-color: #262626;
+   color: #cbcbcb;
+   border-radius: 3px;
+}
+ 
+.tab button.active {
+   background-color: #5a5a5a;
+   border-radius: 3px;
+}
+ 
+button.tablinks.sport {
+   margin-top: 0;
+}
+ 
+.tabline {
+   position: absolute;
+   background-color: black;
+   width: 2px;
+   margin-left: 110px;
+   margin-top: 0px;
+   height: 185.5px;
+   float: left;
+}
+
+.tabcontent {
+   display: none;
+   margin-left: 120px;
+   max-width: 1536px;
+   margin-top: -189px;
+}
+ 
+.div-honkbalfoto {
+   margin-left: 927px;
+   margin-top: -661.4px;
+}
+
+.ikzelf-honkbal {
+   max-width: 350px;
+   height: auto; 
+}
+
+.tabtext {
+   max-width: 850px;
+}
+
+.slideshow-container-container {
+   max-width: 575px;
+   height: auto;
+   margin-right: 30px; 
+}
+
+.slideshow-container {
+   max-width: 600px;
+   position: relative;
+   margin-top: 10px;
+}
+  
+.mySlides {
+   display: none;
+}
+ 
+.prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+}
+  
+.next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+   background-color: hsla(0, 0%, 0%, 0.8);
+}
+  
+.numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+}
+
+.slidefoto {
+   width: 100%;
+}
+  
+.gitaarfoto1 {
+   position: absolute;
+   top: 114px;
+   left: 1000px;
+   width: 350px;
+   height: auto;
+}
+
+.gitaarfoto2 {
+   display: none;
+   width: 100%;
+   max-width: 400px;
+}
+
+
+.iframe-container-container {
+   width: 100%;
+   max-width: 500px;
+   height: auto;
+   margin-right: 30px; 
+}
+
+.iframe-container {
+   position: relative;
+   width: 100%;
+   padding-bottom: 56.25%; 
+   height: 0;
+}
+
+.iframe-container iframe {
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.surffilmpje {
+   position: absolute;
+   margin-top: -324px;
+   margin-left: 200px;
+   width: 353px;
+}
+
+.zeilfoto {
+   max-width: 400px;
+   margin-left: 380px;
+}
+
+.overmij-hallo {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 1;
+   font-size: 42px;
+   margin-top: 40px;
+   margin-left: 100px;
+}
+
+.overmij-naam {
+   font-family: Georgia, 'Times New Roman', Times, serif ;
+   font-weight: 100;
+   font-size: 72px;
+   margin-top:  0px;
+   margin-left: 100px;
+} 
+
+.overmij-subtext {
+   margin-top: 10px;
+   margin-left: 100px;
+   max-width: 630px;
+}
+
+.overmij-foto1 {
+   margin-top: -460px;
+   margin-left: 940px;
+   width: 400px;
+   height: auto;
+}
+
+.overmij-foto2 {
+   display: none;
+   width: 100%;
+   height: auto;
+}
+
+.button-contact {
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 20px;
+   margin-top: 5px; 
+   width: 100%;
+   height: 40px;
+   cursor: pointer;
+   background-color: #cbcbcb;
+   border: none;
+   outline: none;
+}
+
+.button-text {
+   color: #000000;
+   font-family: Georgia;
+}
+
+.contact {
+   position: relative;
+   text-align: center;
+}
+
+.contact-title {
+   margin-top: 100px;
+   color: #000000; 
+   font-size: 32px;
+   font-family: Roboto;
+}
+
+form {
+   margin-top: 50px; 
+}
+
+.form-control {
+   width: 600px;
+   background: transparent;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid #3c3c3c;
+   color: #ffffff;
+   font-size: 18px;
+   margin-bottom: 16px;
+}
+
+input {
+   height: 45px;
+}
+
+form .submit {
+   background-color: #3c3c3c;
+   border: none;
+   color: #ffffff;
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 2px;
+   height: 50px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+form .submit:hover {
+   background-color: #272727;
+}
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   height: 50px;
+   width: 100%;
+   background-color: transparent;
+}
+ 
+.icons {
+   height: 100%;
+   margin-bottom: 0px;
+   margin-left: 30px;
+   list-style: none;
+}
+ 
+li i.fab {
+   font-size: 25px;
+   padding-left: 10px;
+   cursor: pointer;
+   float: left;
+   color: #262626;
+   size: 10px
+}
+
+@media screen and (max-width: 1456px) {
+   .surffilmpje {
+      position: absolute;
+      margin-top: 3px;
+      margin-left: 105px;
+      width: 171px;
+   }
+
+   .zeilfoto {
+      margin-top: 5px;
+      width: 400px;
+      margin-left: 0px;
+   }
+}
+
+@media screen and (max-width: 1375px) {
+   .slideshow-container {
+      max-width: 600px;
+   }
+
+   .div-honkbalfoto {
+      position:static;
+   }
+
+   .ikzelf-honkbal {
+      max-width: 188px;
+      margin-top: 319px;
+      margin-left: -317px;
+   }
+
+}
+
+@media screen and (max-width: 1355px) {
+   .gitaarfoto1 {
+      position: absolute;
+      top: 367.5px;
+      left: 630px;
+      width: 340px;
+      height: auto;
+   }
+}
+
+@media screen and (max-width: 1345px) {
+   .overmij-foto1 {
+      position: absolute;
+      margin-top: -375px;
+      margin-left: 739px;
+      width: 300px;
+      height: auto;
+   }
+}
+
+@media screen and (max-width: 1040px) {
+   .overmij-foto1 {
+      display: none;
+   }
+
+   .overmij-foto2 {
+      display: block; 
+      width: 50%;
+   }
+}
+
+@media screen and (max-width: 987px){
+   .tabtext {
+      margin-right: 10px;
+   }
+}
+
+@media screen and (max-width: 974px){
+   .gitaarfoto1 {
+      display: none;
+   }
+
+   .gitaarfoto2 {
+      display: block;
+   }
+}
+
+
+@media screen and (max-width: 960px){
+   .div-honkbalfoto {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 846px){
+   .surffilmpje {
+      position: absolute;
+      margin-top: 3px;
+      margin-left: 49px;
+      width: 171px;
+   }
+
+   .zeilfoto {
+      margin-top: 5px;
+      width: 400px;
+      margin-left: 0px;
+   }
+}
+
+@media screen and (max-width: 807px){
+   .surffilmpje {
+      position: absolute;
+      margin-top: 288px;
+      margin-left: -367px;
+      width: 171px;
+   }
+
+   .zeilfoto {
+      right: 5px;
+      margin-top: 5px;
+      max-width: 366px;
+      margin-left: 0px;
+   }
+}
+ 
+@media screen and (max-width: 786px) {
+   body { 
+      overflow-x: hidden;
+   }
+   
+   nav a {
+      color: #ffffff;
+      font-weight: 100;
+   }
+
+   nav a:hover {
+      color: #ffffff;
+   }
+    
+   nav a::before {
+      display: none
+   }
+    
+   nav ul {
+      z-index: 1;
+      position: absolute;
+      right: 0px;
+      top: 8vh;
+      height: 40%;
+      background-color: #3b3b3b;
+      display: flex; 
+      text-align: center;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 20%;
+      transform: translate(100%);
+      transition: transform 0.5s ease-out;
+   }
+
+   nav li {
+      margin-bottom: 20px;
+      margin-left: 5px;
+   }
+
+   .hoofdtext {
+      font-size: 40px;
+      margin-left: 0%;
+      margin-top: 10vh;
+      text-align: center;
+   }
+ 
+   .burger {
+      display: block;
+      cursor: pointer;
+      margin-top: 3vh;
+   }
+ 
+   .nav-active {
+      transform: translateX(0%)
+   }
+ 
+   @keyframes navLinksFade {
+      from {
+         opacity: 0;
+         transform: translateX(50px);
+      }
+
+      to {
+         opacity: 1;
+         transform: translateX(0px);
+      }
+   } 
+
+   .slideshow-container {
+      max-width: 400px;
+   }
+
+   .tabtext {
+      text-align: center;
+      max-width: 700px;
+      margin-right: 10px;
+   } 
+
+   .overmij-hallo {
+      text-align: left;
+      font-size: 42px;
+      margin-top: 40px;
+      margin-left: 100px;
+   }
+
+   .overmij-naam {
+      text-align: left;
+      font-weight: 100;
+      font-size: 72px;
+      margin-top:  0px;
+      margin-left: 100px;
+   } 
+
+   .overmij-subtext {
+      margin-top: 10px;
+      margin-left: 100px;
+      max-width: 500px;
+   }
+      
+   .toggle .line1 {
+      transform: rotate(-45deg) translate(-4px,6px)
+   }
+ 
+   .toggle .line2 {
+      transform: rotate(90deg);
+      opacity: 0;
+   }
+ 
+   .toggle .line3 {
+      transform: rotate(45deg) translate(-4px,-6px);
+   }
+}
+ 
+@media screen and (max-width: 630px) {
+   .overmij-subtext {
+      margin-right: 10px;
+   }
+   
+   .form-control {
+      width: 400px;
+   }
+}
+
+@media screen and (max-width: 607px) {
+   .overmijtext {
+      margin-right: 100px;
+   }
+
+   .overmij-foto1 {
+      display: none;
+   }
+
+   .overmij-foto2 {
+      display: block;
+      width: 100%;
+   }
+
+   .overmij-hallo {
+      font-size: 35px;
+      text-align: center;
+   }
+
+   .overmij-naam {
+      font-size: 60px;
+      text-align: center;
+   } 
+
+   .overmij-subtext {
+      text-align: center;
+   }
+}

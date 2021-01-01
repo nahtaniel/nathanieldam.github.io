@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby's</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/Logo/logo website.png ">
+</head>
+    
+<body>
+  <div class="hobbys-bg">
+<header>
+    <div class="container">
+        <img src="img/Logo/Final full logo.png" alt="logo" class="logo">
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hobbys.html">Hobby's</a></li>
+            <li><a href="#">Over mij</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </nav>    
+
+  </div>
+
+</header>
+<main>
+  <div class="tab">
+    <button class="tablinks" onclick="openHobby(event, 'Honkbal')">Honkbal</button>
+    <button class="tablinks" onclick="openHobby(event, 'Drummen')">Drummen</button>
+    <button class="tablinks" onclick="openHobby(event, 'Gitaar')">Gitaar</button>
+    <button class="tablinks" onclick="openHobby(event, 'Zeilen')">Zeilen</button>
+  </div>
+    <div id="Honkbal" class="tabcontent">
+      <h4>Honkbal</h4>
+      <p>Als sport doe ik honkbal, wat ik heel leuk vind om te doen. Ik krijg er altijd energie van en het is ook fijn dat je een best hechte team hebt. Je kan met z'n allen gezellig lachen maar ook hard trainen. Onze trainers zijn namelijk van het uithoudingsvermogen. Onze warming-up is het zwaarste van de training. Het is wel chill om elke week een zware training te hebben, zo ontwikkel je het best een conditie. Verder train ik op dinsdag (dit doen we met het team) en woensdag (dit is voor de pitchers (degene die de bal gooit op de slagman) en voor de catchers (degene achter de slagman)). Op zaterdag hebben we een wedstrijd, dan laat je natuurlijk zien wat je kan. De ene wedstrijd is spannender dan de andere en sommige zijn vooral lachen. Het verschilt best wel veel.   
+      </p>
+      <div class="honkbalteam"></div>
+    </div>
+    
+    <div id="Drummen" class="tabcontent">
+      <h4>Drummen</h4>
+      <p>Een van de instrumenten die ik speel is drum. Zelf haal ik er energie uit, maar kom ook tot rust. Het kan soms lichamelijk best intensief zijn, maar mentaal heel rustgevend. Ik doe het nu al een aantal jaar (zo'n vier jaar). Laatst ben ik gestopt met het volgen van lessen. Ik vind het jammer dat ik er niet meer naar toe ga, maar het was niet heel goed geregeld etc. Het drumstel was b.v.b. niet van goeie kwaliteit. Vaak waren er ook dingen niet goed doorgegeven of dingen slecht geregeld. Ik blijf verder wel gewoon doorgaan met drummen, omdat ik het nog wel leuk vind. Zelf heb ik een youtube kanaal waar ik drumvideo's op upload. Daar ben ik vorig jaar mee begonnen alleen vanwege tijdsgebrek doe ik dat niet vaak. Ik hoop dat ik binnekort wel weer een video kan oploaden. </p>
+    </div>
+    
+    <div id="Gitaar" class="tabcontent">
+      <h4>Gitaar</h4>
+      <p>Gitaar is het tweede instrument dat ik speel. Ik doe dat nu ongeveer een jaar, nadat ik de lessen van mijn zusje had overgenomen (die vond het niet meer leuk, dus nam ik het over). Ik heb een goeie gitaadocent waarmee ik kan lachen, maar ook serieuze gesprekken mee kan hebben. Ik vind gitaar leuk om te doen omdat ik ook hierbij tot rust kom. Je kan het makkelijk tussendoor even snel doen, integenstelling tot durmmen. Dat gaat natuurlijk iets lastiger. Een gitaar kun je ook makkelijker meenemen dan een drumstel. Je kan bvb samen met vrienden spelen, wat ik af en toe doe. Ik ben nu bezig met het liedje "Nothing Esle Matters" van de band Metellica. Het is een leuk liedje, maar ook erg pittig. Ik ben er nu al ongeveer 3 weken mee bezig, maar het lukt al best wel goed. </p>
+    </div>
+      
+    <div id="Zeilen" class="tabcontent">
+      <h4>Zeilen</h4>
+      <p>Zeilen vind ik ook heel leuk om te doen. Ik doe dit niet vaak, maar als ik het doe geniet ik er wel erg van. Ik zeil vrijwel altijd met mijn vader, afgelopen vakantie heb ik voor de eerste keer alleen gezeilt op een catamaran. Dit vond ik erg eng, maar heb er wel erg van genoten. Ook bij zeilen kom ik tot rust, ik wordt er rustig van. Soms misschien iets te rustig en begin ik een beetje af te dwalen. Ik ben vorig jaar ook op zeilkamp geweest, bij het Gaastmeer in Friesland. Dat was echt super gezellig en zou graag nog een keer willen. Ik heb daar nieuwe vrienden gemaakt en ook veel geleerd. </p>
+    </div>
+</main>
+
+<footer>
+
+</footer>
+<script src="app.js"></script>
+</body>
+
+ 
+
+</html>
